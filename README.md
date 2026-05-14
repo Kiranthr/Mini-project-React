@@ -1,12 +1,92 @@
-# React + Vite
+# Weather App 🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Weather Application built using React, Vite, and Material UI that allows users to search for any city and get real-time weather information.
 
-Currently, two official plugins are available:
+## 📌 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search weather by city name
+- Displays temperature
+- Shows humidity details
+- Displays weather conditions
+- Responsive Material UI design
+- Component-based architecture using React
+- Fast loading with Vite
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ReactJS
+- JavaScript
+- Vite
+- Material UI
+- CSS
+- Weather API
+
+## 📂 Project Structure
+
+```bash
+Mini-project-React/
+│
+├── src/
+│   ├── App.jsx
+│   ├── WeatherApp.jsx
+│   ├── SearchBox.jsx
+│   ├── InfoBox.jsx
+│   ├── App.css
+│   ├── SearchBox.css
+│   ├── InfoBox.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── public/
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## ⚙️ Installation & Setup
+
+Clone repository:
+
+```bash
+git clone https://github.com/Kiranthr/Mini-project-React.git
+```
+
+Move into project:
+
+```bash
+cd Mini-project-React
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run application:
+
+```bash
+npm run dev
+```
+
+Open:
+
+```bash
+http://localhost:5173
+```
+
+
+
+## 🎯 Future Improvements
+
+- Add 5-day weather forecast
+- Add location-based weather
+- Add dark mode
+- Add loading animations
+- Improve UI design
+
+## 👨‍💻 Author
+
+**Kiran Thenipalli**
+
+GitHub: https://github.com/Kiranthr
